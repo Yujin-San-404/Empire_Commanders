@@ -1,0 +1,32 @@
+{
+  "battlefield": { "width": 1280, "height": 720, "decoration_seed": 7 },
+  "ai": {
+    "enemy_aggro_radius": 240,
+    "enemy_leash_radius": 560,
+    "ally_engage_radius": 180,
+    "ally_leash_radius": 340,
+    "ally_return_radius": 430,
+    "follow_ring_radius": 55,
+    "follow_ring_spacing": 36,
+    "follow_ring_capacity": 6,
+    "follow_arrive_distance": 8,
+    "catch_up_distance": 220,
+    "catch_up_multiplier": 1.5,
+    "chase_stop_fraction": 0.85
+  },
+  "scenarios": {
+    "skirmish": {
+      "title": "Border Skirmish",
+      "objective": "Defeat the raiders threatening your village.",
+      "general_position": [260, 360],
+      "ally_squad": [ { "class": "bolo_fighter", "count": 4 } ],
+      "enemy_squad": [
+        { "class": "bolo_fighter", "x": 960, "y": 300 },
+        { "class": "bolo_fighter", "x": 990, "y": 420 },
+        { "class": "bolo_fighter", "x": 1010, "y": 360 },
+        { "class": "spearman", "x": 1040, "y": 340 },
+        { "class": "spearman", "x": 1040, "y": 400 }
+      ]
+    }
+  }
+}

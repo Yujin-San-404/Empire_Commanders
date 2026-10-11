@@ -1,0 +1,31 @@
+{
+  "general": {
+    "display_name": "General",
+    "max_health": 150,
+    "damage": 18,
+    "attack_range": 34,
+    "attack_cooldown": 0.6,
+    "speed": 170,
+    "radius": 13
+  },
+  "troops": {
+    "bolo_fighter": {
+      "display_name": "Bolo Fighter",
+      "max_health": 50,
+      "damage": 7,
+      "attack_range": 24,
+      "attack_cooldown": 1.0,
+      "speed": 110,
+      "radius": 10
+    },
+    "spearman": {
+      "display_name": "Spearman",
+      "max_health": 55,
+      "damage": 9,
+      "attack_range": 40,
+      "attack_cooldown": 1.2,
+      "speed": 105,
+      "radius": 10
+    }
+  }
+}
